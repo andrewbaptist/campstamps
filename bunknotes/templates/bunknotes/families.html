@@ -1,0 +1,9 @@
+{% if family_list%}
+    <ul>
+    {% for family in family_list %}
+    <li>{{family}}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Familys yet :(</p>
+{% endif %}
